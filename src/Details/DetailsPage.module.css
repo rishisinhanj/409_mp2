@@ -1,0 +1,32 @@
+.detailsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 16px;
+}
+
+.detailsBox {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.pokemonImage {
+    display: block;
+    margin: 0 auto 16px;
+    width: 150px;
+    height: 150px;
+}
